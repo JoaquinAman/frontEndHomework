@@ -1,0 +1,93 @@
+.bigContainer{
+    /* background-color: violet; */
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background-color: black;
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    margin: 10px;
+}
+.firstHalf{
+    flex-direction: column;
+    display: flex;
+    width: 30vw;
+    height: 100%;
+    margin: 10px;
+}
+.secondHalf{
+    flex-direction: column;
+    display: flex;
+    width: 60vw;
+    height: 100%;
+    margin: 10px;
+}
+.yellowFirstHalf{
+    background-color: rgb(253, 236, 1);
+    display: flex;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+    justify-content: center;
+}
+.whiteFirstHalf{
+    background-color: beige;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin: 10px;
+    justify-content: center;
+}
+.redSecondHalf{
+    background-color: rgba(248, 9, 9, 0.911);
+    display: flex;
+    width: 55vw;
+    height: 85%;
+    margin: 10px;
+    justify-content: center;
+}
+.whiteSecondHalf{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    margin: 10px;
+}
+.whiteFirstPart{
+    background-color: beige;
+    display: flex;
+    width: 60%;
+    height: 15vh;
+    margin: 5px;
+    justify-content: center;
+}
+.whiteSecondPart{
+    background-color: green;
+    display: flex;
+    width: 35%;
+    height: 15vh;
+    margin: 5px;
+    justify-content: center;
+}
+.blueFirstHalf{
+    background-color: rgb(4, 4, 165);
+    display: flex;
+    width: 30vw;
+    height: 17vh;
+    margin: 10px;
+    margin-block-end: 20px;
+    justify-content: center;
+    
+}
+.word{
+    align-self: center;
+    color: beige;
+    font-family: Arial;
+}
+.word2{
+    align-self: center;
+    color: black;
+    font-family: Arial;
+}
