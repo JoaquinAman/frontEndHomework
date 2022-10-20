@@ -1,0 +1,44 @@
+.container{
+    background-color: rgb(43, 137, 226);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.card1{
+    background-color: rgba(233, 233, 40, 0.897);
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    margin: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+.card2{
+    background-color: green;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    margin: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.loader{
+    background-color: rgb(202, 38, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
