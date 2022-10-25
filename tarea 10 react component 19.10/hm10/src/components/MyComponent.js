@@ -19,7 +19,6 @@ function MyComponent(){
                     setCar([firstCar, secondCar])
             }, 3000);
         },[car])
-        console.log(car)
     return (
         <div className='container'>
             { !car ?
