@@ -5,14 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyComponent from './components/MyComponent';
 import MyTest from './components/MyTest';
+import Form from './components/Form'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <MyComponent/>
+    {/* <MyComponent/> */}
     {/* <MyTest/> */}
+    <Form/>
   </React.StrictMode>
 );
 
