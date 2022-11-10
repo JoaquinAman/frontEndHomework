@@ -1,0 +1,15 @@
+.welcomePageContainer{
+    display: flex;
+    
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.welcomeMsg{
+    
+    margin: auto;
+}
+.startFormLink{
+    margin: auto;
+}

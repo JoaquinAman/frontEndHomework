@@ -1,0 +1,9 @@
+.errorMessage{
+    background-color: rgb(97, 33, 36);
+    width: 18%;
+    height: 3vh;
+}
+.message{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
