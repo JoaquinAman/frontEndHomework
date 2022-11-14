@@ -23,7 +23,7 @@ export default function Form( {dataUser, setDataUser} ){
     return (
         // style={{'font-size':30, color: 'red', 'background-color': 'cyan', 'text-decoration': 'underline'}}
         <div className='upperContainer' style={{'backgroundColor':'purple'}}>
-              <div> ' '</div>
+              
               <Link to="/" style={{ color: 'red', 'text-decoration': 'underline', 'alignSelf':'self-start'
             ,'font-size':20, color: 'red', 'background-color': 'purple', 'text-decoration': 'underline'}}> Home </Link>
             <p></p>
