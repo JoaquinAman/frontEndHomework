@@ -1,7 +1,7 @@
 import React from "react";
-import './Album.css'
+import './Post.css'
 
-const Album = ({id, title, onDelete}) => {
+const Album = ({id, title, body, onDelete}) => {
     
     const handleDelete = () => {
         onDelete(id)
@@ -10,7 +10,8 @@ const Album = ({id, title, onDelete}) => {
     return (
         <div className="list">
                 
-                <span data-testid="titleId" >{title}</span>
+                <span data-testid="postTitleId" >{title}</span>
+                <span data-testid="postBodyId" >{body}</span>
                 <span>
                     <button>edit</button>
                     <button data-testid="deleteButtonId"  onClick={handleDelete}>delete</button>

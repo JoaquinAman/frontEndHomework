@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "jest": {
     "automock": false,
@@ -17,8 +18,10 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.2",
+    "node-fetch": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "reactstrap": "^9.1.5"
   },
   "devDependencies": {
@@ -27,7 +30,9 @@
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
+    "@vitest/coverage-c8": "^0.25.2",
     "jest-fetch-mock": "^3.0.3",
+    "jest-mock-axios": "^4.7.0-beta2",
     "jsdom": "^20.0.2",
     "vite": "^3.2.3",
     "vitest": "^0.25.1"

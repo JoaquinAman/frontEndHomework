@@ -15,7 +15,7 @@ const handleOnSubmit = (e) => {
                 <h3>Add User</h3>
                 <input placeholder="Name" name="name" type="text" />
                 <input placeholder="Email" name="email"  type="text" />
-                <button onSubmit={handleOnSubmit}> Add </button>
+                <button data-testid="addButtonId" onSubmit={handleOnSubmit}> Add </button>
                 <hr />
             </form>
         </div>

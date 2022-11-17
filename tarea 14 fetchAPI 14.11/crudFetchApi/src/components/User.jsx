@@ -9,11 +9,11 @@ const User = ({id, email, name, onDelete}) => {
     
     return (
         <div className="list">
-                <span>{name}</span>
-                <span>{email}</span>
+                <span data-testid="userNameId">{name}</span>
+                <span data-testid="userEmailId">{email}</span>
                 <span>
                     <button>edit</button>
-                    <button onClick={handleDelete}>delete</button>
+                    <button data-testid="deleteButtonId" onClick={handleDelete}>delete</button>
                 </span>
         </div>
     )
