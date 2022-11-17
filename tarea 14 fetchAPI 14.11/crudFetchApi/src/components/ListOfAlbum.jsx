@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
-// import "./App.css";
 import AddAlbum from "./AddAlbum";
-import AddUser from "./AddUser";
 import Album from "./Album";
-import User from "./User";
+
 
 
 const ListOfAlbum = () => {

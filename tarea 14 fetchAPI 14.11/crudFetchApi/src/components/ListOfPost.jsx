@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import "./App.css";
-import AddAlbum from "./AddAlbum";
 import AddPost from "./AddPost";
-import AddUser from "./AddUser";
-import Album from "./Album";
-import User from "./User";
 import Post from "./Post";
 
 
