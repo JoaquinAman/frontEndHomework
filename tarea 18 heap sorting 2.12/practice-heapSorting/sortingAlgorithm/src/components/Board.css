@@ -7,12 +7,9 @@
 }
 .boardContainer2{
     display: flex;
-    /* justify-content: space-around; */
-    /* justify-items: stretch; */
     gap: 30px;
     flex-direction: row-reverse;
     width: 89vw;
-    /* max-width: 85vw; */
 }
 .button{
     background-color: #afaaaa; 

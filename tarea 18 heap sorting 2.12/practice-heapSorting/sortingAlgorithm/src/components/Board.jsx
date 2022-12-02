@@ -61,7 +61,7 @@ function Board() {
             tempArr.push(myObj) 
         }
         const finalArr = tempArr.flat()
-        console.log("final objs:");
+        console.log("final objects:");
         console.log(finalArr);
 
         finalArr.reverse()
