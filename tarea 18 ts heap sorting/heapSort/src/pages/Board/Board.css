@@ -1,18 +1,18 @@
-.boardContainer{
+.boardContainer {
     display: flex;
     justify-content: space-around;
     justify-items: stretch;
     width: 90vw;
     max-width: 90vw;
-}
-.boardContainer2{
+  }
+  .boardContainer2 {
     display: flex;
     gap: 30px;
     flex-direction: row-reverse;
     width: 89vw;
-}
-.button{
-    background-color: #afaaaa; 
+  }
+  .button {
+    background-color: #afaaaa;
     border: 10px;
     border: 2px solid #131212;
     border-radius: 10%;
@@ -23,4 +23,6 @@
     display: inline-block;
     font-size: 16px;
     margin-top: 1%;
-}
+    align-self: center;
+  }
+  

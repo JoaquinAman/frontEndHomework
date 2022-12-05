@@ -1,0 +1,10 @@
+.barContainer {
+  height: 40vh;
+  width: 10vw;
+  background-color: rgb(96, 96, 221);
+  justify-self: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+}
